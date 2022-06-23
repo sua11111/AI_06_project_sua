@@ -10,8 +10,8 @@ Info  : User_ID(int), Gender(str), Age(int), EstimatedSalary(int), Purchased(in
 ML Model
 데이터 전처리  : 원핫인코딩, 불필요한 칼럼 삭제, 수지형 데이터 정규화
 데이터 셋 생성 : train set, test set split
-모델 구축        : KNeighborsClassifier, LogisticRegression, DecisionTreeClassifier, 
-                 GradientBoostingClassifier, RandomForestClassifier
+모델 구축 : KNeighborsClassifier, LogisticRegression, DecisionTreeClassifier, GradientBoostingClassifier, RandomForestClassifier
+
 모델별 성능 평가 
 진행 및 비교    : 높은 학습, 검증 정확도, 과적합 발생 유무
 모델 선정        : GradientBoostingClassifier
